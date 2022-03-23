@@ -4,6 +4,8 @@
 library(ggplot2)
 # library(hexbin)
 
+# Basics: plotting
+
 plot(iris$Sepal.Width, iris$Sepal.Length)
 
 qplot(Sepal.Width, Sepal.Length, data = iris)
